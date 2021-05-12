@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-50">
+  <section id="portfolio" class="bg-gray-50">
     <div class="container mx-auto px-6 font-noto lg:px-0 lg:py-48">
       <div class="flex flex-col items-center">
         <div class="text-4xl font-bold text-center font-poppins">Portfolio</div>

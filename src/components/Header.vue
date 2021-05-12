@@ -9,8 +9,16 @@
         <a
           v-for="link in menu"
           :key="link.title"
-          class="mx-2 hover:text-green-400 transition-colors text-sm font-noto lg:mx-4"
-          href="#"
+          class="
+            mx-2
+            hover:text-green-400
+            transition-colors
+            text-sm
+            font-noto
+            cursor-pointer
+            lg:mx-4
+          "
+          @click.prevent="goto(link.href)"
         >
           {{ link.title }}
         </a>
@@ -27,14 +35,19 @@ export default {
 
   setup() {
     const menu = reactive([
-      { title: '簡介' },
-      { title: '經歷' },
-      { title: '技能' },
-      { title: '作品' }
+      { title: '簡介', href: '#about' },
+      { title: '經歷', href: '#exp' },
+      { title: '技能', href: '#skills' },
+      { title: '作品', href: '#portfolio' }
     ])
 
+    const goto = href => {
+      document.querySelector(href).scrollIntoView({ behavior: 'smooth' })
+    }
+
     return {
-      menu
+      menu,
+      goto
     }
   }
 }
