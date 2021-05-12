@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="bg-gray-50">
+  <section id="skills" class="bg-gray-50 pb-8 lg:pb-0">
     <div class="container mx-auto px-6 font-noto lg:px-0 lg:py-48">
       <div class="flex flex-col items-center">
         <div class="text-4xl font-bold text-center font-poppins">Skills</div>
@@ -7,8 +7,8 @@
         <div class="text-gray-500 text-sm">技能</div>
       </div>
 
-      <div class="mt-24">
-        <div class="bg-white shadow p-8 font-noto text-gray-700">
+      <div class="mt-8 lg:mt-24">
+        <div class="bg-white shadow p-4 font-noto text-gray-700 lg:p-8">
           <p class="text-lg font-poppins font-bold mb-4">Vue.js</p>
 
           <p>1. Vue 2.x/3.x 開發</p>

@@ -1,5 +1,5 @@
 <template>
-  <section id="exp" class="bg-gray-50">
+  <section id="exp" class="bg-gray-50 pb-8 lg:pb-0">
     <div class="container mx-auto px-6 font-noto lg:px-0 lg:py-48">
       <div class="flex flex-col items-center">
         <div class="text-4xl font-bold text-center font-poppins">Experience</div>
@@ -7,8 +7,8 @@
         <div class="text-gray-500 text-sm">經歷</div>
       </div>
 
-      <div class="mt-24 bg-white shadow p-8">
-        <div class="flex justify-between">
+      <div class="mt-8 p-4 bg-white shadow lg:mt-24 lg:p-8">
+        <div class="flex flex-col justify-between lg:flex-row">
           <span class="text-lg">信業國際有限公司</span>
           <span
             class="
@@ -20,6 +20,9 @@
               text-white text-xs
               py-1
               px-2
+              w-24
+              order-first
+              lg:order-last
             "
           >
             2019 ~ 2021

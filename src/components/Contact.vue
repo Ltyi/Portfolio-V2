@@ -7,7 +7,7 @@
         <div class="text-gray-500 text-sm">聯絡資訊</div>
       </div>
 
-      <div class="mt-12">
+      <div class="my-8 lg:mt-12">
         <div class="font-noto text-gray-700">
           <p class="text-center">
             林庭億
