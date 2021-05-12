@@ -6,4 +6,13 @@ import store from './store'
 // [Tailwind CSS]
 import '@/style/tailwind.css'
 
-createApp(App).use(store).use(router).mount('#app')
+// [Fontawesome]
+import fontawesome from '@/plugins/fontawesome'
+
+const app = createApp(App)
+
+app.use(fontawesome)
+app.use(store)
+app.use(router)
+
+app.mount('#app')

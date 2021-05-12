@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   mode: 'jit',
 
@@ -6,7 +8,21 @@ module.exports = {
   darkMode: false,
 
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        orange: colors.orange
+      },
+
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        noto: ['Noto Sans TC', 'sans-serif']
+      },
+
+      backgroundImage: () => ({
+        profile: "url('~@/assets/profile.jpg')",
+        portfolio1: "url('~@/assets/portfolio1.jpg')"
+      })
+    }
   },
 
   variants: {},
