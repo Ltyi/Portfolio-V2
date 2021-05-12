@@ -1,24 +1,10 @@
-# portfolio
+# Portfolio-V2
 
-## Project setup
-```
-npm install
-```
+## Core
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Vue 3.x
+- Tailwind CSS 2.x
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## DEMO
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[DEMO](https://ltyi.github.io/Portfolio-V2/)
