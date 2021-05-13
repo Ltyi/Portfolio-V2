@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="bg-gray-50">
+  <section id="portfolio" class="bg-gray-50 pb-8 lg:pb-0">
     <div class="container mx-auto px-6 font-noto lg:px-0 lg:py-48">
       <div class="flex flex-col items-center">
         <div class="text-4xl font-bold text-center font-poppins">Portfolio</div>
@@ -100,7 +100,17 @@
           </div>
         </div>
 
-        <div class="w-full lg:w-6/12 h-96 bg-portfolio2 bg-cover bg-center shadow"></div>
+        <div
+          class="
+            w-full
+            lg:w-6/12
+            h-96
+            bg-portfolio2 bg-cover bg-center
+            shadow
+            order-first
+            lg:order-last
+          "
+        ></div>
       </div>
     </div>
   </section>
