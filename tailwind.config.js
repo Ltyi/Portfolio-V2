@@ -20,7 +20,8 @@ module.exports = {
 
       backgroundImage: () => ({
         profile: "url('~@/assets/profile.jpg')",
-        portfolio1: "url('~@/assets/portfolio1.jpg')"
+        portfolio1: "url('~@/assets/portfolio1.jpg')",
+        portfolio2: "url('~@/assets/portfolio2.jpg')"
       })
     }
   },

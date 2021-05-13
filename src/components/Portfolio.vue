@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="bg-gray-50 pb-8 lg:pb-0">
+  <section id="portfolio" class="bg-gray-50">
     <div class="container mx-auto px-6 font-noto lg:px-0 lg:py-48">
       <div class="flex flex-col items-center">
         <div class="text-4xl font-bold text-center font-poppins">Portfolio</div>
@@ -53,6 +53,54 @@
             </a>
           </div>
         </div>
+      </div>
+
+      <div class="flex flex-wrap mt-8 lg:mt-24">
+        <div
+          class="
+            w-full
+            p-4
+            bg-white
+            shadow
+            text-gray-700
+            flex flex-col
+            justify-center
+            lg:p-16
+            lg:w-6/12
+          "
+        >
+          <div class="text-2xl font-bold">Lty Store</div>
+
+          <div class="mt-8 mb-8 lg:mb-0">
+            <p>
+              2019 時利用 Firebase 以及 Vue.js
+              寫的電商模板(無金流)，包含會員註冊、會員登入、訂單下訂、查看訂單等功能。
+            </p>
+          </div>
+
+          <div class="flex-grow"></div>
+
+          <div>
+            <a
+              href="https://lty-store.firebaseapp.com/#/"
+              target="_blank"
+              class="rounded-2xl py-1 px-4 bg-green-400 text-white mr-2"
+            >
+              Live Demo
+            </a>
+
+            <a
+              href="https://github.com/Ltyi/Lty-Store"
+              target="_blank"
+              class="rounded-2xl py-1 px-4 bg-green-400 text-white"
+            >
+              <fa-icon :icon="['fab', 'github']" class="mr-1" />
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-6/12 h-96 bg-portfolio2 bg-cover bg-center shadow"></div>
       </div>
     </div>
   </section>
