@@ -12,7 +12,7 @@
         <div class="w-16 h-1 my-4 bg-green-400"></div>
 
         <div class="font-noto leading-6 text-gray-700 text-sm lg:text-base">
-          <p>於2018年開始自學前端開發，2019年底正式進入職場擔任前端工程師一職。</p>
+          <p>您好，我於2019年底進入職場擔任前端工程師一職。</p>
           <br />
           <p>
             工作期間曾負責過前後台專案開發，並與後端工程師協作進行 API
